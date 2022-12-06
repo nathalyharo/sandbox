@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Silkscreen&family=Teko&display=swap');
+
+
+/* table styling */
+table,
+table td{
+    border: 1px solid rgb(178, 68, 234);
+}
+td{
+    height: 6em;
+    width: 20em;
+}
+table{
+    text-align: center;
+    font-family: Arial;
+}
+
+/* nav styling */
+.nav{
+    padding: 2em 2em 2em 2em;
+    font-size: medium;
+    font-family: Arial;
+}
+.nav a:hover{
+    background-color: rgb(215, 178, 233);
+}
+
+/* header - styling */
+h1{
+    text-align: center;
+    color:rgb(215, 178, 233);
+    font-family: 'Silkscreen', cursive;
+}
+#about_me{
+    text-align: center;
+}
+.about_me_desc{
+    text-align: center;
+    font-family: Arial;
+    padding-left: 17em;
+    padding-right: 17em;
+    text-align: justify;
+}
+.selfie{
+    display: block;
+    margin: auto;
+    height: 50%;
+    width: 50%;
+}
+
+/* main - heading styling */
+h2{
+    text-decoration: underline;
+}
+.skills,
+.education,
+.work_exp,
+.hobbies{
+    text-align: left;
+    padding-left: 5em;
+}
+main, footer{
+    font-family: Arial;
+}
+body{
+    background-color: rgb(242, 239, 249);
+}
